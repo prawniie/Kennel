@@ -1,0 +1,20 @@
+﻿Yoshis Kennel
+- Fixa skalet - DONE
+- Färgpalett - DONE
+- Logga - Fråga KG
+
+- Valpar
+- Kullar
+- Fotoalbum
+- Kontakta oss
+- Om oss
+
+-------------------------------------------------
+
+TORSDAG
+
+Olof: Footer (jobbar i litters)
+
+Rebecka: Fotoalbum-sidan
+
+Georg: Kontakta oss
