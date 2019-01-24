@@ -108,7 +108,7 @@
                         <div class="col col-6">
                             <div class="form-group">
                                 <label for="InputTelephoneNumber">Telefonnummer</label>
-                                <input type="number" class="form-control" id="InputTelephoneNumber" placeholder="Ange telefonnummer">
+                                <input type="text" class="form-control" id="InputTelephoneNumber" placeholder="Ange telefonnummer">
                             </div>
                         </div>
                         <div class="col col-6">
@@ -139,7 +139,7 @@
                     <br />
 
                     <div class="text-center">
-                        <button type="submit" class="btn btn-primary" id="submit">Skicka in</button>
+                        <button type="button" class="btn btn-primary" id="submit">Skicka in</button>
                     </div>
 
                     <small id="approvesPersonInformation" class="form-text text-muted text-center">Genom att skicka in godkänner du vår <a href="personuppgifter.html">behandling av personuppgifter</a></small>
@@ -150,12 +150,22 @@
                     <br />
                 </form>
 
+
+                <div id="validationMessage"></div>
+                <div id="validationPrename"></div>
+                <div id="validationLastname"></div>
+                <div id="validationTelephoneNumber"></div>
+                <div id="validationEmail"></div>
+
+
             </div>
 
             <div class="col col-2">
             </div>
         </div>
     </div>
+
+    <script src="contact-us.js"></script>
 
 </body>
 </html>
