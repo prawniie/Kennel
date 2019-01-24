@@ -5,6 +5,19 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <None Include="wwwroot\20170720_152844.jpg" />
+    <None Include="wwwroot\20170720_180508.jpg" />
+    <None Include="wwwroot\20171216_154005.jpg" />
+    <None Include="wwwroot\FB_IMG_1513978886175.jpg" />
+    <None Include="wwwroot\FB_IMG_1513978896840.jpg" />
+
+    <None Include="wwwroot\litters\Olofsvalp1.jpg" />
+    <None Include="wwwroot\litters\Olofsvalp2.jpg" />
+  </ItemGroup>
+
+
+
+  <ItemGroup>
     <PackageReference Include="Microsoft.AspNetCore.App" />
     <PackageReference Include="Microsoft.AspNetCore.Razor.Design" Version="2.1.2" PrivateAssets="All" />
   </ItemGroup>
