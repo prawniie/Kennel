@@ -25,6 +25,18 @@
             padding-bottom: 20px;
         }
 
+        #carousel {
+            width: 100%;
+            height: 150px;
+            background-color: #ffffff;
+            overflow: visible;
+            white-space: nowrap;
+        }
+
+            #carousel .slide {
+                display: inline-block;
+            }
+
     </style>
 </head>
 <body>
@@ -81,7 +93,7 @@
 
         <h2>Yoshi - Född 22/10-2015</h2>
         <div class="container">
-            <img class="img-fluid" alt="Responsive image" width="300" src="FB_IMG_1513978896840.jpg" />
+            <img height="350" onmouseover="this.height = '700'; this.width='500'" onmouseleave="this.height = '350'; this.width='300'" alt="Responsive image" width="300" src="FB_IMG_1513978896840.jpg" />
         </div>
 
         <div class=thumbnail style="background-image: url(20170720_180508.jpg);"></div>
@@ -91,9 +103,30 @@
 
     </div>
 
+    <div id="carousel">
+        <div class="slide">
+            <img src="20170720_180508.jpg" width="300" height="200" />
+        </div>
+        <div class="slide">
+            <img src="20170720_180508.jpg" width="300" height="200"/>
+        </div>        
+        <div class="slide">
+            <img src="20170720_180508.jpg" width="300" height="200" />
+        </div>        
+        <div class="slide">
+            <img src="20170720_180508.jpg" width="300" height="200"/>
+        </div>        
+        <div class="slide">
+            <img src="20170720_180508.jpg" width="300" height="200"/>
+        </div>        
+        <div class="slide">
+            <img src="20170720_180508.jpg" width="300" height="200"/>
+        </div>
+    </div>
+
     <script>
 
-        let thumbnailImages = document.getElementsByClassName("img-thumbnail");
+        let thumbnailImages = document.getElementsByClassName("thumbnail");
         let i;
         for (i = 0; i < thumbnailImages.length; i++) {
 
