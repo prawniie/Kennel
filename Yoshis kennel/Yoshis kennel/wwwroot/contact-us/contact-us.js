@@ -3,31 +3,32 @@ function getId(id) {
     return document.getElementById(id)
 }
 
+let wrongPrename = getId("validationPrename");
 
 function validatePreName() {
     let preName = getId("InputPrename").value;
     if (preName == "") {
-        alert("Du måste fylla i ett förnamn");
+        wrongPrename.innerText = "Du måste fylla i ett förnamn";
         return false;
     }
     else {
         return true;
     }
 }
+
+
+let wrongLastname = getId("validationLastname");
 
 function validateLastName() {
     let lastName = getId("InputLastname").value;
     if (lastName == "") {
-        alert("Du måste fylla i ett efternamn");
+        wrongLastname.innerText = "Du måste fylla i ett efternamn";
         return false;
     }
     else {
         return true;
     }
 }
-
-
-//Ändra allt till felmeddelanden!!!
 
 
 let wrongMessage = getId("validationMessage");
@@ -35,8 +36,7 @@ let wrongMessage = getId("validationMessage");
 function validateMessage() {
     let message = getId("FormControlTextarea1").value;
     if (message == "") {
-        wrongMessage.innerText = "Du måste ju göre något!!";
-        //alert("Du måste fylla i textboxen");
+        wrongMessage.innerText = "Du måste fylla i ett meddelande";
         return false;
     }
     else {
@@ -44,16 +44,20 @@ function validateMessage() {
     }
 }
 
+let wrongEmail = getId("validationEmail");
+
 function validateEmail() {
     let email = getId("InputEmail").value;
     if (email == "") {
-        alert("Du måste fylla i en email");
+        wrongEmail.innerText = "Du måste fylla i en email";
         return false;
     }
     else {
         return true;
     }
 }
+
+let wrongTelephonenumber = getId("validationTelephoneNumber")
 
 function validateTelephonenumber() {
     let telephoneNumber = getId("InputTelephoneNumber").value;
@@ -63,7 +67,7 @@ function validateTelephonenumber() {
         return true;
     }
     else {
-        alert("Du måste ange en siffra");
+        wrongTelephonenumber.innerText = "Du måste ange en siffra";
         return false;
     }
 }
