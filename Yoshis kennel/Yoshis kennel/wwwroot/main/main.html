@@ -14,6 +14,36 @@
             opacity: 0.5;
         }
 
+        #welcome {
+            margin-top: 20px;
+            background-image: url(../photos/20171216_154005.jpg);
+            /*background-image: url(../photos/20170720_152839.jpg);*/
+            /*background-image: url(../photos/20170719_192058.jpg);*/
+            /*background-image: url(../photos/20170718_171816.jpg);*/ 
+            background-size: cover;
+            color: #002b40;
+            opacity: 0.6;
+            height: 300px;
+        }
+
+        .display-4, .lead {
+            font-weight: 600;
+        }
+
+        #news {
+            margin-top: 20px;
+            background-image: url(../photos/20170804_114019.jpg);
+            background-size: cover;
+            color: #002b40;
+            opacity: 0.6;
+            height: 300px;
+        }
+
+        #contact {
+            color: #002b40;
+            /*background-color: #fff;*/
+        }
+
     </style>
 
 </head>
@@ -65,17 +95,36 @@
         </div>
     </nav>
 
-    <div class="jumbotron jumbotron-fluid text-center">
+    <div id="welcome" class="jumbotron jumbotron-fluid text-center">
         <div class="container">
             <h1 class="display-4">Välkommen till Yoshis Kennel</h1>
             <p class="lead">Uppfödare av finsk lapphund</p>
         </div>
     </div>
 
-    <!--<div class="container">-->
-        <img id="yoshi" class="img-fluid" alt="Responsive image" src="../photos/20170720_180508.jpg" />
+    <div id="news" class="jumbotron jumbotron-fluid text-center">
+        <div class="container">
+            <h1 class="display-4">Valpar</h1>
+            <p class="lead">Kull A2 födda 18/12-18</p>
+            <p class="lead">Kull B2 födda 11/1-19</p>
 
-    <!--</div>-->
+            <div class="alert alert-primary" role="alert">
+                Det finns valpar kvar att tinga i B2-kullen!
+            </div>
+
+
+        </div>
+    </div>
+
+    <div id="contact" class="jumbotron jumbotron-fluid text-center">
+        <div class="container">
+            <h2 class="display-4">Intresserad av att köpa en valp eller veta mer om rasen?</h2>
+            <p class="lead"><a href="../contact-us/contact-us.html">Kontakta oss!</a></p>
+
+        </div>
+    </div>
+
+
 
 
 
