@@ -10,38 +10,40 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
 
     <style>
-        #yoshi {
-            opacity: 0.5;
+        #welcomeHeader {
+            font-size: 50px;
         }
 
         #welcome {
-            margin-top: 20px;
             background-image: url(../photos/20171216_154005.jpg);
-            /*background-image: url(../photos/20170720_152839.jpg);*/
-            /*background-image: url(../photos/20170719_192058.jpg);*/
-            /*background-image: url(../photos/20170718_171816.jpg);*/ 
             background-size: cover;
             color: #002b40;
-            opacity: 0.6;
             height: 300px;
+            margin-bottom: 0px;
         }
 
-        .display-4, .lead {
+        .display-4 {
+            font-size: 30px;
             font-weight: 600;
         }
 
-        #news {
-            margin-top: 20px;
+        .lead {
+            font-size: 18px;
+            font-weight: 400;
+        }
+
+        #puppies {
             background-image: url(../photos/20170804_114019.jpg);
             background-size: cover;
             color: #002b40;
-            opacity: 0.6;
+            /*opacity: 0.6;*/
             height: 300px;
+            margin-bottom: 0px;
         }
 
-        #contact {
+        #contact, #news {
             color: #002b40;
-            /*background-color: #fff;*/
+            margin-bottom: 0px;
         }
 
     </style>
@@ -97,22 +99,26 @@
 
     <div id="welcome" class="jumbotron jumbotron-fluid text-center">
         <div class="container">
-            <h1 class="display-4">Välkommen till Yoshis Kennel</h1>
+            <h1 id="welcomeHeader">Välkommen till Yoshis Kennel</h1>
             <p class="lead">Uppfödare av finsk lapphund</p>
         </div>
     </div>
 
     <div id="news" class="jumbotron jumbotron-fluid text-center">
         <div class="container">
-            <h1 class="display-4">Valpar</h1>
+            <h2 class="display-4">Nyheter</h2>
             <p class="lead">Kull A2 födda 18/12-18</p>
             <p class="lead">Kull B2 födda 11/1-19</p>
+        </div>
+    </div>
+
+    <div id="puppies" class="jumbotron jumbotron-fluid text-center">
+        <div class="container">
+            <h2 class="display-4">Valpar</h2>
 
             <div class="alert alert-primary" role="alert">
                 Det finns valpar kvar att tinga i B2-kullen!
             </div>
-
-
         </div>
     </div>
 
@@ -120,13 +126,8 @@
         <div class="container">
             <h2 class="display-4">Intresserad av att köpa en valp eller veta mer om rasen?</h2>
             <p class="lead"><a href="../contact-us/contact-us.html">Kontakta oss!</a></p>
-
         </div>
     </div>
-
-
-
-
 
 </body>
 </html>
