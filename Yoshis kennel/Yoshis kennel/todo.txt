@@ -26,6 +26,7 @@ FREDAG
 Lägga till tabell med lite hälsoinfo under kullar (se plymspireas.com) Rebecka
 Lägga till footer i de andra sidorna
 Centrera bilderna i fotoalbumet (Rebecka)
+Lägg till text och typ 1 bild under valpar + om oss
 
 Fixa logga
 Bestämma typsnitt
