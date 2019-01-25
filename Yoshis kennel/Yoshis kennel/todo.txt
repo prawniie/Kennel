@@ -23,6 +23,10 @@ Georg: Kontakta oss
 
 FREDAG
 
+Lägga till tabell med lite hälsoinfo under kullar (se plymspireas.com) Rebecka
+Lägga till footer i de andra sidorna
+Centrera bilderna i fotoalbumet (Rebecka)
+
 Fixa logga
 Bestämma typsnitt
 Be någon se över hemsidan, om vi ska ändra något tex placering av innehåll, länkar
