@@ -26,6 +26,10 @@ function validateLastName() {
     }
 }
 
+
+//Ändra allt till felmeddelanden!!!
+
+
 let wrongMessage = getId("validationMessage");
 
 function validateMessage() {
