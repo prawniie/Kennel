@@ -10,6 +10,31 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
 
+    <style>
+        .picture-litt {
+            width: 220px;
+            height: 220px;
+            border-radius: 15px;
+        }
+
+        .color1 {
+            color: #0081BF
+        }
+
+        .color2 {
+            color: #00567F
+        }
+
+        .color3 {
+            color: #00ACFF
+        }
+
+        .color4 {
+            color: #002B40
+        }
+
+   
+    </style>
 </head>
 <body>
 
@@ -59,41 +84,24 @@
         </div>
     </nav>
 
-    <style>
-        .picture-litt {
-            width: 220px;
-            height: 220px;
-            border-radius: 15px;
-        }
 
-        .color1 {
-            color: #0081BF
-        }
 
-        .color2 {
-            color: #00567F
-        }
+    <h1 class="text-center">Tidigare kullar</h1>
+    <br />
+    <br />
 
-        .color3 {
-            color: #00ACFF
-        }
-
-        .color4 {
-            color: #002B40
-        }
-    </style>
-
-    <h1>Kullar</h1>
     <div class="container-fluid">
         <div class="row">
             <div class="col col-2">
             </div>
 
             <div class="col col-8">
+
+
                 <div class="row container">
-                    <div class="col col-3">
+                    <div class="col col-2">
                     </div>
-                    <div class="col col-3">
+                    <div class="col col-lg-4">
                         <article>
                             Här ser vi bilder på senaste kullen där Astra och Zeneca är åtta veckor gamla
                             och fortfarande har en försiktig syn på omvärlden. Detta är vår senaste kull och de
@@ -101,28 +109,92 @@
                         </article>
 
                     </div>
-                    <div class="col col-3">
-                        <div class="img-fluid"> <img src="Olofsvalp1.jpg" class="picture-litt pop-up" /></div>
+                    <div class="col col-lg-4">
+
+                        <a class="picture-litt" href="#" data-image-id="" data-toggle="modal" data-title=""
+                           data-image="Olofsvalp1.jpg"
+                           data-target="#image-gallery">
+                            <img class="picture-litt"
+                                 src="Olofsvalp1.jpg"
+                                 alt="Another alt text">
+                        </a>
+
+                        <div class="modal fade" id="image-gallery" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                            <div class="modal-dialog">
+                                <div class="modal-content">
+                                    <h4 class="modal-title" id="image-gallery-title"></h4>
+                                    <button type="button" class="close" data-dismiss="modal">
+                                        <span aria-hidden="true">×</span><span class="sr-only">Close</span>
+                                    </button>
+                                    <!--<div class="modal-header">
+                                        <h5 class="modal-title">Astra och Zeneca</h5>
+                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                            <span aria-hidden="true">&times;</span>
+                                        </button>
+                                    </div>-->
+                                    <div class="modal-body">
+                                        <img src="/litters/Olofsvalp1.jpg" class="img-responsive col-md-12" />
+                                    </div>
+                                    <!--<div class="modal-footer">
+                                        <button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
+
+                                    </div>-->
+                                </div>
+                            </div>
+                        </div>
+                        <!--<div id="myModal" class="img-fluid" onclick="openModal()"> <img src="Olofsvalp1.jpg" class="picture-litt" /></div>-->
                     </div>
-                    <div class="col col-3">
+                    <div class="col col-2">
                     </div>
                 </div>
                 <br />
                 <br />
                 <br />
                 <div class="row container">
-                    <div class="col col-3">
+                    <div class="col col-2">
                     </div>
-                    <div class="col col-3">
-                        <div class="img-fluid"> <img src="Olofsvalp2.jpg" class="picture-litt" /></div>
+                    <div class="col col-lg-4">
+                        <a class="picture-litt" href="#" data-image-id="" data-toggle="modal" data-title=""
+                           data-image="Olofsvalp2.jpg"
+                           data-target="#image-gallery">
+                            <img class="picture-litt"
+                                 src="Olofsvalp2.jpg"
+                                 alt="Another alt text">
+                        </a>
+
+                        <div class="modal fade" id="image-gallery" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                            <div class="modal-dialog">
+                                <div class="modal-content">
+                                    <h4 class="modal-title" id="image-gallery-title"></h4>
+                                    <button type="button" class="close" data-dismiss="modal">
+                                        <span aria-hidden="true">×</span><span class="sr-only">Close</span>
+                                    </button>
+                                    <!--<div class="modal-header">
+                    <h5 class="modal-title">Astra och Zeneca</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>-->
+                                    <div class="modal-body">
+                                        <img src="/litters/Olofsvalp2.jpg" class="img-responsive col-md-12" />
+                                    </div>
+                                    <!--<div class="modal-footer">
+                    <button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
+
+                </div>-->
+                                </div>
+                            </div>
+                        </div>
+                        <!--<div id="myModal" class="img-fluid" onclick="openModal()"> <img src="Olofsvalp1.jpg" class="picture-litt" /></div>-->
+                        <!--<div class="img-fluid"> <img src="Olofsvalp2.jpg" class="picture-litt" /></div>-->
                     </div>
-                    <div class="col col-3">
+                    <div class="col col-lg-4">
                         <article>
                             I somras närmare bestämt tredje juni kom dessa underbara valpar till världen. Fem fina småvalpar avlade från Helge och Marianne.
                             Helge och Marianne är två stycken renrasiga Finska lapphundar med underbara stamtavlor. De tål dessutom kyla väldigt bra
                             och har vinnit många käcka priser i agility.
                         </article>
-                        <div class="col col-3">
+                        <div class="col col-2">
                         </div>
                     </div>
                 </div>
@@ -130,9 +202,9 @@
                 <br />
                 <br />
                 <div class="row container">
-                    <div class="col col-3">
+                    <div class="col col-2">
                     </div>
-                    <div class="col col-3">
+                    <div class="col col-lg-4">
                         <article>
                             Här ser vi bilder på senaste kullen där Astra och Zeneca är åtta veckor gamla
                             och fortfarande har en försiktig syn på omvärlden. Detta är vår senaste kull och de
@@ -140,28 +212,91 @@
                         </article>
 
                     </div>
-                    <div class="col col-3">
-                        <div class="img-fluid"> <img src="Olofsvalp1.jpg" class="picture-litt" /></div>
+                    <div class="col col-lg-4">
+                        <a class="picture-litt" href="#" data-image-id="" data-toggle="modal" data-title=""
+                           data-image="Olofsvalp1.jpg"
+                           data-target="#image-gallery">
+                            <img class="picture-litt"
+                                 src="Olofsvalp1.jpg"
+                                 alt="Another alt text">
+                        </a>
+
+                        <div class="modal fade" id="image-gallery" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                            <div class="modal-dialog">
+                                <div class="modal-content">
+                                    <h4 class="modal-title" id="image-gallery-title"></h4>
+                                    <button type="button" class="close" data-dismiss="modal">
+                                        <span aria-hidden="true">×</span><span class="sr-only">Close</span>
+                                    </button>
+                                    <!--<div class="modal-header">
+                    <h5 class="modal-title">Astra och Zeneca</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>-->
+                                    <div class="modal-body">
+                                        <img src="/litters/Olofsvalp1.jpg" class="img-responsive col-md-12" />
+                                    </div>
+                                    <!--<div class="modal-footer">
+                    <button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
+
+                </div>-->
+                                </div>
+                            </div>
+                        </div>
+
+                       
                     </div>
-                    <div class="col col-3">
+                    <div class="col col-2">
                     </div>
                 </div>
                 <br />
                 <br />
                 <br />
                 <div class="row container">
-                    <div class="col col-3">
+                    <div class="col col-2">
                     </div>
-                    <div class="col col-3">
-                        <div class="img-fluid"> <img src="Olofsvalp2.jpg" class="picture-litt" /></div>
+                    <div class="col col-lg-4">
+                        <a class="picture-litt" href="#" data-image-id="" data-toggle="modal" data-title=""
+                           data-image="Olofsvalp2.jpg"
+                           data-target="#image-gallery">
+                            <img class="picture-litt"
+                                 src="Olofsvalp2.jpg"
+                                 alt="Another alt text">
+                        </a>
+
+                        <div class="modal fade" id="image-gallery" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                            <div class="modal-dialog">
+                                <div class="modal-content">
+                                    <h4 class="modal-title" id="image-gallery-title"></h4>
+                                    <button type="button" class="close" data-dismiss="modal">
+                                        <span aria-hidden="true">×</span><span class="sr-only">Close</span>
+                                    </button>
+                                    <!--<div class="modal-header">
+                    <h5 class="modal-title">Astra och Zeneca</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>-->
+                                    <div class="modal-body">
+                                        <img src="/litters/Olofsvalp2.jpg" class="img-responsive col-md-12" />
+                                    </div>
+                                    <!--<div class="modal-footer">
+                    <button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
+
+                </div>-->
+                                </div>
+                            </div>
+                        </div>
+
                     </div>
-                    <div class="col col-3">
+                    <div class="col col-lg-4">
                         <article>
                             I somras närmare bestämt tredje juni kom dessa underbara valpar till världen. Fem fina småvalpar avlade från Helge och Marianne.
                             Helge och Marianne är två stycken renrasiga Finska lapphundar med underbara stamtavlor. De tål dessutom kyla väldigt bra
                             och har vinnit många käcka priser i agility.
                         </article>
-                        <div class="col col-3">
+                        <div class="col col-2">
                         </div>
                     </div>
                 </div>
@@ -171,6 +306,7 @@
             </div>
         </div>
     </div>
+   
     <br />
     <br />
     <br />
